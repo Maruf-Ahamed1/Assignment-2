@@ -1,0 +1,382 @@
+/* All Common CSS Starts */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish';
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&display=swap');
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    /* background-color: rgb(232, 195, 222); */
+}
+
+/* Starts Nav CSS */
+nav {
+    display: flex;
+    margin: 20px 135px;
+    justify-content: space-between;
+    /* background-color: blanchedalmond; */
+}
+
+.nav-logo {
+    display: flex;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+
+}
+
+.logo-title {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-left: 1rem;
+}
+
+.span-one {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    margin-left: 40px;
+    color: #424247;
+    font-size: 1.2rem;
+
+}
+
+.home a {
+    color: #FF5400;
+    font-weight: 700;
+}
+
+/* nav banner  css starts */
+.nav-banner {
+    margin: 30px 135px;
+}
+
+.nav-background {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+.nav-content {
+
+    position: relative;
+}
+
+.nav-background img {
+    width: 100%;
+}
+
+.nav-title {
+    position: absolute;
+    top: -440px;
+    left: 305px;
+    right: 305px;
+    color: #131318;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.nav-paragraph {
+    position: absolute;
+    color: #67a0f5;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 26px;
+    width: 70%;
+    top: -340px;
+    left: 175px;
+    right: 175px;
+}
+
+
+
+.button-section {
+    position: absolute;
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-left: 180px;
+    margin-right: 180;
+    margin-top: -200px;
+}
+
+.button-section input {
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    height: 52px;
+    border: none;
+    position: relative;
+}
+
+input[type="text"] {
+    font-size: 1rem;
+    text-align: center;
+}
+
+#one {
+    position: absolute;
+    margin-left: -60px;
+    margin-top: 17px;
+}
+
+#two {
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 17px;
+}
+
+.input-four input {
+    background-color: #FF5400;
+}
+
+.input-four::placeholder {
+    color: #FFF;
+    font-weight: 700;
+}
+
+
+/* Banner 2 css starts */
+
+.banner-two {
+    margin: 0px 135px;
+    display: flex;
+    /* gap: 10; */
+}
+
+.banner-text {
+    width: 50%;
+}
+
+.our-mission {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.mission-text {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.banner-text ul {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.text-one {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15PX 30PX;
+    color: #FFF;
+    background-color: #FF5400;
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.banner-photo {
+    width: 50%;
+}
+
+.banner-photo img {
+    margin-left: 40px;
+}
+
+/* Banner 3 css starts */
+.banner-three {}
+
+.banner-three-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.banner-three-text {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    text-align: center;
+}
+
+.photo-collection {
+    /* border: 2px solid red; */
+    margin-left: 135px;
+    margin-right: 135px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.photo-collection img {
+    width: 100%;
+    height: 100%;
+}
+
+.grid-item-1 {
+    grid-column: 1/span 6;
+}
+
+.grid-item-2 {
+    grid-column: 7/span 6;
+}
+
+.grid-item-3 {
+    grid-column: 1/span 4;
+}
+
+.grid-item-4 {
+    grid-column: 5/span 5;
+}
+
+.grid-item-5 {
+    grid-column: 10/span 3;
+}
+
+.grid-item-6 {
+    grid-column: 1/span 5;
+}
+
+.grid-item-7 {
+    grid-column: 6/span 7;
+}
+
+/* banner-4 css */
+.banner-four {
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    margin-left: 135px;
+    margin-right: 135px;
+
+}
+
+.banner-four-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.banner-four-text {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.grid-collection {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+.grid-collection img {
+    width: 100px;
+    height: 100px;
+    
+}
+
+.grid-item-1 {
+    grid-column: 1/span 6;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.grid-item-2 {
+    grid-column: 7/span 6;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.grid-item-3 {
+    grid-column: 4/span 6;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.common-class {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.common-para {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile responsive */
+@media screen and (max-width: 580px) {
+
+    nav,
+    .nav-logo,
+    .nav-menu :-moz-ui-invalid,
+    .button-section {
+        flex-direction: column;
+    }
+
+
+}

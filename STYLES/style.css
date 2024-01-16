@@ -312,7 +312,7 @@ button {
 .grid-collection img {
     width: 100px;
     height: 100px;
-    
+
 }
 
 .grid-item-1 {
@@ -329,7 +329,7 @@ button {
     background: rgba(41, 206, 246, 0.05);
 }
 
-.grid-item-3 {
+.grid-item-333 {
     grid-column: 4/span 6;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
@@ -349,22 +349,95 @@ button {
     line-height: 26px;
 }
 
+/* banner 5 css */
+.banner-five {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 135px;
+    margin-right: 135px;
+    gap: 50px;
+    /* border: 2px solid red; */
+}
 
+.HHH {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 50px;
+}
 
+.PPP {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 30px;
+}
 
+.banner-five-video {
+    margin-top: 50px;
+}
 
+/* Banner 6 css */
+.banner-six {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 135px;
+    margin-right: 135px;
+    gap: 50px;
+}
 
+#hey input {
+    display: block;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+}
 
+/* footer bar css */
+.footer-bar {
+    margin-top: 50px;
+    margin-left: 135px;
+    margin-right: 135px;
 
+}
 
+.footer-logo-name {
+    display: flex;
+    justify-content: center;
+}
 
+.footer-text {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+}
 
+.icon ul{
+    margin-top: 20px;
+    margin-left: 440px;
+}
+.icon i{
+    padding: 10px 30px;
+    font-size: 25px;
 
-
-
-
-
-
+}
+.line{
+    border: 1px solid black;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 30px;
+}
+.finish{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
 
 
 
